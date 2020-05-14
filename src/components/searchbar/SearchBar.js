@@ -4,7 +4,7 @@ import './searchbar.css'
 const SearchBar = (props) => {
   return (
     <div>
-      <input className="search" placeholder='Search card name' type='text' onChange={props.handleInput} />
+      <input className="searchbar" placeholder='Search card name' type='text' onChange={props.handleInput} />
     </div>
   )
 }
