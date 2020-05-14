@@ -1,4 +1,25 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+# StarWars Trade Widget
+(Single Page Web Application)
+
+
+## Main Page whit the SearchBar
+
+![screenshot](src/images/main.png)
+
+<br>
+<br>
+
+## SearchBar Filter and and Autocomoplete functionality
+
+![screenshot](src/images/search-bar-functionality.png)
+
+
+## Live Demo
+[The APP](https://starwarscardtradewidget.netlify.app/)
+
+
+This project was created with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 

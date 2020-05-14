@@ -9,9 +9,11 @@
   cursor:pointer;
   transform: translateZ(0);
   margin-bottom: 30px;
+
 }
 
 .card-container:hover {
+
   transform:scale(1.02);
   box-shadow: 0 0 15px 1px #a8a3a3;
 }
