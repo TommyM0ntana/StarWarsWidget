@@ -3,6 +3,8 @@ import './App.css';
 import Header from './components/Header/Header'
 import CardTradeList from './components/cardtradeslist/CardTradeList'
 import SearchBar from './components/searchbar/SearchBar'
+import Footer from './components/footer/Footer'
+
 
 class App extends Component {
   constructor() {
@@ -94,6 +96,7 @@ class App extends Component {
         <Header />
         <SearchBar handleInput={this.handleInput} />
         <CardTradeList filteredCardtrades={filteredCardtrades} />
+        <Footer />
       </div>
     )
   }
