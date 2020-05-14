@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './cardtradeitem.css'
 
 const CardTradeItem = (props) => {
   return (

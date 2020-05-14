@@ -2,7 +2,7 @@ import React from 'react'
 import CardTradeItem from '../cardtradeitem/CardTradeItem'
 
 const CardTradeList = (props) => {
-  let cardtrades = props.cardtrades.map((cardtrade) => {
+  let cardtrades = props.filteredCardtrades.map((cardtrade) => {
     return <CardTradeItem key={cardtrade.id} name={cardtrade.name} image_url={cardtrade.image_url} description={cardtrade.description} />
   }
 

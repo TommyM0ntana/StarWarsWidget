@@ -1,9 +1,10 @@
 import React from 'react'
+import './searchbar.css'
 
 const SearchBar = (props) => {
   return (
     <div>
-      <input type="text" className="search" placeholder='Search cardname' type='text' />
+      <input className="search" placeholder='Search card name' type='text' onChange={props.handleInput} />
     </div>
   )
 }

@@ -25,17 +25,27 @@ class App extends Component {
           name: 'STAR WARS: THE FORCE UNLEASHED', id: '4', image_url: "https://lumiere-a.akamaihd.net/v1/images/The-Force-Unleashed-Poster_4f2601ea.jpeg?region=0%2C0%2C1000%2C1500&width=480",
           description: 'The completely re-imagines and scale of the Force.'
         }
-      ]
+      ],
+      searchCardtrade: ''
     }
   }
 
+  handleInput = (e) => {
+    console.log(e.target.value);
+
+    this.setState({ searchCardtrade: e.target.value })
+  }
+
   render() {
+    let filteredCardtrades = this.state.cardtrades.filter((cardtrade) => {
+      return cardtrade.name.toLowerCase().includes(this.state.searchCardtrade.toLocaleLowerCase())
+    })
+
     return (
       <div className="App" >
-
         <Header />
-        <SearchBar />
-        <CardTradeList cardtrades={this.state.cardtrades} />
+        <SearchBar handleInput={this.handleInput} />
+        <CardTradeList filteredCardtrades={filteredCardtrades} />
       </div>
     )
   }
