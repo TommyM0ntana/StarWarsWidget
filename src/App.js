@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Header from './components/Header/Header'
 import CardTradeList from './components/cardtradeslist/CardTradeList'
+import SearchBar from './components/searchbar/SearchBar'
 
 class App extends Component {
   constructor() {
@@ -31,7 +32,9 @@ class App extends Component {
   render() {
     return (
       <div className="App" >
+
         <Header />
+        <SearchBar />
         <CardTradeList cardtrades={this.state.cardtrades} />
       </div>
     )
