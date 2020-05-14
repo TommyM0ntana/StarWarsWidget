@@ -1,6 +1,6 @@
 import React from 'react'
 import CardTradeItem from '../cardtradeitem/CardTradeItem'
-
+import './cardtradelist.css'
 const CardTradeList = (props) => {
   let cardtrades = props.filteredCardtrades.map((cardtrade) => {
     return <CardTradeItem key={cardtrade.id} name={cardtrade.name} image_url={cardtrade.image_url} description={cardtrade.description} />
