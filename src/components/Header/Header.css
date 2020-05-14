@@ -31,4 +31,12 @@ ul li {
 
 .main-nav .title {
   font-size: 40px;
+
+}
+
+@media (max-width:900px){
+  .navbar h1 {
+    font-size: 40px;
+    padding: 20px;
+  }
 }
