@@ -1,6 +1,6 @@
 
-# StarWars Trade Widget
-(Single Page Web Application)
+# StarWars Card Trade Widget
+(ReactJs Single Page Web Application)
 
 
 ## Main Page whit the SearchBar
@@ -10,13 +10,20 @@
 <br>
 <br>
 
-## SearchBar Filter and and Autocomoplete functionality
+## SearchBar Filter and Autocomoplete functionality
 
 ![screenshot](src/images/search-bar-functionality.png)
 
 
 ## Live Demo
 [The APP](https://starwarscardtradewidget.netlify.app/)
+
+
+
+## Here are the steps to run this App
+- Clone 
+- npm install
+- npm start
 
 
 This project was created with [Create React App](https://github.com/facebook/create-react-app).
