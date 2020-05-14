@@ -34,9 +34,12 @@ ul li {
 
 }
 
-@media (max-width:900px){
+@media (max-width:800px){
   .navbar h1 {
     font-size: 40px;
     padding: 20px;
+  }
+  .navbar ul li {
+    font-size: 13px;
   }
 }
