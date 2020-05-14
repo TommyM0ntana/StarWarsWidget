@@ -14,7 +14,6 @@ const CardTradeList = (props) => {
           {cardtrades}
         </div>
       </div>
-
     </div>
   )
 }

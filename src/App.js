@@ -5,7 +5,6 @@ import CardTradeList from './components/cardtradeslist/CardTradeList'
 import SearchBar from './components/searchbar/SearchBar'
 import Footer from './components/footer/Footer'
 
-
 class App extends Component {
   constructor() {
     super()
@@ -101,6 +100,5 @@ class App extends Component {
     )
   }
 }
-
 
 export default App;
