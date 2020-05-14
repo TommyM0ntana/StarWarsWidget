@@ -19,7 +19,7 @@
 [The APP](https://starwarscardtradewidget.netlify.app/)
 
 
-##Initial Prototype with the Components Structure
+## Initial Prototype with the Components Structure
 
 ![screenshot](src/images/Prototype-CardTradeWidget.png)
 
