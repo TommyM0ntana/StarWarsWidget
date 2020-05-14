@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Header from './components/Header/Header'
+import CardTradeList from './components/cardtradeslist/CardTradeList'
 
 class App extends Component {
   constructor() {
@@ -23,7 +24,6 @@ class App extends Component {
           name: 'STAR WARS: THE FORCE UNLEASHED', id: '4', image_url: "https://lumiere-a.akamaihd.net/v1/images/The-Force-Unleashed-Poster_4f2601ea.jpeg?region=0%2C0%2C1000%2C1500&width=480",
           description: 'The completely re-imagines and scale of the Force.'
         }
-
       ]
     }
   }
@@ -32,6 +32,7 @@ class App extends Component {
     return (
       <div className="App" >
         <Header />
+        <CardTradeList cardtrades={this.state.cardtrades} />
       </div>
     )
   }
