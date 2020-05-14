@@ -18,7 +18,8 @@
 ## Live Demo
 [The APP](https://starwarscardtradewidget.netlify.app/)
 
-
+##Initial Prototype with the Components Structure
+![screenshot](src/images/Prototype-CardTradeWidget.png)
 
 ## Here are the steps to run this App
 - Clone 
